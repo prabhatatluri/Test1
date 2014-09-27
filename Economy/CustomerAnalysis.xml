@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout datasource="tblCustomerAnalysis">
+  <gridcolumn>
+    <mapping>CustomerId</mapping>
+    <headertext>CustomerId</headertext>
+    <visible>false</visible>
+    <readonly>true</readonly>
+    <width>0</width>
+  </gridcolumn>
+  <gridcolumn>
+    <mapping>Customer</mapping>
+    <headertext>Customer</headertext>
+    <visible>true</visible>
+    <readonly>true</readonly>
+    <width>200</width>
+  </gridcolumn>
+  <gridcolumn>
+    <mapping>NrOfProjects</mapping>
+    <headertext>NrOfProjects</headertext>
+    <visible>true</visible>
+    <readonly>true</readonly>
+    <width>120</width>
+  </gridcolumn>
+  <gridcolumn>
+    <mapping>TotalSales</mapping>
+    <headertext>TotalSales</headertext>
+    <visible>true</visible>
+    <readonly>true</readonly>
+    <format>#,##0 kr</format>
+    <alignment>right</alignment>
+    <width>120</width>
+  </gridcolumn>
+  <gridcolumn>
+    <mapping>TB0</mapping>
+    <headertext>Total TB0</headertext>
+    <visible>true</visible>
+    <readonly>true</readonly>
+    <width>120</width>
+    <format>#,##0 kr</format>
+    <alignment>right</alignment>
+  </gridcolumn>
+</layout>

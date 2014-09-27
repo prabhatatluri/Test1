@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<layout datasource="vPyramid...">
+	<gridcolumn>
+		<mapping>AccountTypeID</mapping>
+		<headertext>AccountTypeID</headertext>
+		<visible>false</visible>
+		<readonly>true</readonly>
+	</gridcolumn>
+
+	<gridcolumn>
+		<mapping>Account</mapping>
+		<headertext>Konto</headertext>
+		<visible>true</visible>
+		<readonly>true</readonly>
+		<width>200</width>
+	</gridcolumn>
+
+	<gridcolumn>
+		<mapping>Amount</mapping>
+		<headertext>Belopp</headertext>
+		<format>#,##0.00 kr</format>
+		<alignment>right</alignment>
+		<visible>true</visible>
+		<readonly>true</readonly>
+		<width>100</width>
+	</gridcolumn>
+</layout>
+

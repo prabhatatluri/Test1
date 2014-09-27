@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout datasource="tblProjectAnalysis">
+  <gridcolumn>
+    <mapping>ProjectID</mapping>
+    <headertext>ProjectID</headertext>
+    <visible>false</visible>
+    <readonly>true</readonly>
+  </gridcolumn>
+  <gridcolumn>
+    <mapping>ProjectNumber</mapping>
+    <headertext>ProjectNumber</headertext>
+    <visible>true</visible>
+    <readonly>true</readonly>
+  </gridcolumn>
+  <gridcolumn>
+    <mapping>Customer</mapping>
+    <headertext>Customer</headertext>
+    <visible>true</visible>
+    <readonly>true</readonly>
+  </gridcolumn>
+  <gridcolumn>
+    <mapping>Company</mapping>
+    <headertext>Company</headertext>
+    <visible>true</visible>
+    <readonly>true</readonly>
+  </gridcolumn>
+  <gridcolumn>
+    <mapping>Region</mapping>
+    <headertext>Region</headertext>
+    <visible>true</visible>
+    <readonly>true</readonly>
+  </gridcolumn>
+  <gridcolumn>
+    <mapping>Office</mapping>
+    <headertext>Office</headertext>
+    <visible>true</visible>
+    <readonly>true</readonly>
+  </gridcolumn>
+  <gridcolumn>
+    <mapping>ProjectManager</mapping>
+    <headertext>ProjectManager</headertext>
+    <visible>true</visible>
+    <readonly>true</readonly>
+  </gridcolumn>
+  <gridcolumn>
+    <mapping>ProjectType</mapping>
+    <headertext>ProjectType</headertext>
+    <visible>true</visible>
+    <readonly>true</readonly>
+  </gridcolumn>
+  <gridcolumn>
+    <mapping>RunningBill</mapping>
+    <headertext>Ersättningsform</headertext>
+    <visible>true</visible>
+    <readonly>true</readonly>
+  </gridcolumn>
+  <gridcolumn>
+    <mapping>TotalIncome</mapping>
+    <headertext>TotalIncome</headertext>
+    <visible>true</visible>
+    <readonly>true</readonly>
+    <format>#,##0 kr</format>
+    <alignment>right</alignment>
+  </gridcolumn>
+  <gridcolumn>
+    <mapping>TotalCost</mapping>
+    <headertext>TotalCost</headertext>
+    <visible>true</visible>
+    <readonly>true</readonly>
+    <format>#,##0 kr</format>
+    <alignment>right</alignment>
+  </gridcolumn>
+  <gridcolumn>
+    <mapping>TB0</mapping>
+    <headertext>TB0</headertext>
+    <visible>true</visible>
+    <readonly>true</readonly>
+    <format>#,##0 kr</format>
+    <alignment>right</alignment>
+  </gridcolumn>
+  <gridcolumn>
+    <mapping>TG0</mapping>
+    <headertext>TG0</headertext>
+    <visible>true</visible>
+    <readonly>true</readonly>
+    <format>0 \%</format>
+    <alignment>right</alignment>
+  </gridcolumn>
+  <gridcolumn>
+    <mapping>MountingTime</mapping>
+    <headertext>Montagetimmar</headertext>
+    <visible>true</visible>
+    <readonly>true</readonly>
+    <format>0 \h</format>
+    <alignment>right</alignment>
+  </gridcolumn>
+  <gridcolumn>
+    <mapping>IncomeHours</mapping>
+    <headertext>Intäkt/mont. tim</headertext>
+    <visible>true</visible>
+    <readonly>true</readonly>
+    <format>0 \kr/tim</format>
+    <alignment>right</alignment>
+  </gridcolumn>
+  <gridcolumn>
+    <mapping>ProfitHours</mapping>
+    <headertext>TB0/mont. tim</headertext>
+    <visible>true</visible>
+    <readonly>true</readonly>
+    <format>0 \kr/tim</format>
+    <alignment>right</alignment>
+  </gridcolumn>
+  <gridcolumn>
+    <mapping>CostQuote</mapping>
+    <headertext>Mtrl/Löner</headertext>
+    <visible>true</visible>
+    <readonly>true</readonly>
+    <format>#,##0.00</format>
+    <alignment>right</alignment>
+  </gridcolumn>
+  
+  <gridcolumn>
+    <mapping>CompleteDate</mapping>
+    <headertext>Avslutsdag</headertext>
+    <visible>true</visible>
+    <readonly>true</readonly>
+  </gridcolumn>
+</layout>

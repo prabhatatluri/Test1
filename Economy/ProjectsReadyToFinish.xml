@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout datasource="vProjectsReadyToFinish">
+  <gridcolumn>
+    <mapping>ProjectID</mapping>
+    <headertext>ProjectID</headertext>
+    <visible>false</visible>
+    <readonly>true</readonly>
+  </gridcolumn>
+
+  <gridcolumn>
+    <mapping>OfficeName</mapping>
+    <headertext>Kontor</headertext>
+    <visible>true</visible>
+    <readonly>true</readonly>
+    <width>120</width>
+  </gridcolumn>
+  <gridcolumn>
+    <mapping>ProjectNumber</mapping>
+    <headertext>ProjektId</headertext>
+    <visible>true</visible>
+    <readonly>true</readonly>
+    <width>120</width>
+  </gridcolumn>
+  
+  <gridcolumn>
+    <mapping>ObjectName</mapping>
+    <headertext>Objekt</headertext>
+    <visible>true</visible>
+    <readonly>true</readonly>
+    <width>120</width>
+  </gridcolumn>
+  <gridcolumn>
+    <mapping>Estate</mapping>
+    <headertext>Fastighet</headertext>
+    <visible>true</visible>
+    <readonly>true</readonly>
+    <width>120</width>
+  </gridcolumn>
+  <gridcolumn>
+    <mapping>City</mapping>
+    <headertext>Stad</headertext>
+    <visible>true</visible>
+    <readonly>true</readonly>
+    <width>120</width>
+  </gridcolumn>
+  <gridcolumn>
+    <mapping>ProductionName</mapping>
+    <headertext>Avslut Produktion</headertext>
+    <visible>true</visible>
+    <readonly>true</readonly>
+    <width>120</width>
+  </gridcolumn>
+  <gridcolumn>
+    <mapping>ProductionDate</mapping>
+    <headertext>Avslut Datum</headertext>
+    <visible>true</visible>
+    <readonly>true</readonly>
+    <width>120</width>
+  </gridcolumn>
+  
+  <gridcolumn>
+    <mapping>Amount</mapping>
+    <headertext>Belopp</headertext>
+    <format>#,##0.00 kr</format>
+    <alignment>right</alignment>
+    <visible>true</visible>
+    <readonly>true</readonly>
+    <width>100</width>
+  </gridcolumn>
+</layout>
